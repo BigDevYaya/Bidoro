@@ -1,0 +1,53 @@
+@import 'tailwindcss';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@theme {
+    --color-green : #15340B;
+    --color-secondary-yellow : #FCFCEF;
+    --color-gray-elements : #505050;
+    --color-primary-green : #62775C;
+    --color-verylight-green : #B6C0B3;
+    --color-light : #E8EBE7;
+    --color-gray-light : #D0D5DD;
+    --color-footer-texts : #E9E9E9;
+
+    --font-poppins : "Poppins", sans-serif;
+}
+
+@layer base {
+    body {
+        @apply font-poppins
+    }
+}
+
+.hero-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+}
+
+.sticky-header {
+    position: sticky;
+    transform: translateY(0);
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    transition: all 0.1s ease-in-out;
+}
+
+button {
+    cursor: pointer;
+}

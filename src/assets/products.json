@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "LG 52 inches television",
+    "price": 450000,
+    "category": "Electronics/Television",
+    "location": "Lagos",
+    "image": "/images/lgtvbig.png"
+  },
+  {
+    "id": 2,
+    "title": "LG 52 inches television",
+    "price": 450000,
+    "category": "Electronics/Television",
+    "location": "Lagos",
+    "image": "/images/lgtvbig.png"
+  },
+  {
+    "id": 3,
+    "title": "LG 52 inches television",
+    "price": 450000,
+    "category": "Electronics/Television",
+    "location": "Lagos",
+    "image": "/images/lgtvbig.png"
+  },
+  {
+    "id": 4,
+    "title": "LG 52 inches television",
+    "price": 450000,
+    "category": "Electronics/Television",
+    "location": "Lagos",
+    "image": "/images/lgtvbig.png"
+  }
+]
