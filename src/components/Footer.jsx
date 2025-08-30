@@ -3,8 +3,8 @@ import React from 'react'
 const Footer = () => {
             
   return (
-    <footer className='bg-green flex flex-col gap-4 items-center justify-center px-10 py-10'>
-        <div className='grid text-white mb-5 place-items-start gap-7 grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
+    <footer className='bg-green flex flex-col gap-4 items-center justify-center py-5 px-5 lg:px-10 lg:py-10'>
+        <div className='grid text-white mb-5 place-items-start gap-7 grid-cols-2 md:grid-cols-2 lg:grid-cols-4'>
             <div className='flex flex-col gap-1 items-center'>
                 <img src="/images/whitelogo.png" className='w-36' alt="logo" />
                 <div className='flex items-start gap-4 text-black'>
